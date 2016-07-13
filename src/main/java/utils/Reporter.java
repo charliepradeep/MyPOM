@@ -31,7 +31,8 @@ public class Reporter extends LinkedInWrappers{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+        
+	
 		// Write if it is successful or failure or information
 		if(status.toUpperCase().equals("PASS")){
 			test.log(LogStatus.PASS, desc+test.
